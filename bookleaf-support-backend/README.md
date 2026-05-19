@@ -24,11 +24,10 @@ Once it's up:
 
 ### Seed accounts
 
-| Role   | Email                | Password   |
-| ------ | -------------------- | ---------- |
-| ADMIN  | admin@bookleaf.com   | Admin@123  |
-| AUTHOR | author1@bookleaf.com | Author@123 |
-| AUTHOR | author2@bookleaf.com | Author@123 |
+| Role   | Email                  | Password   |
+| ------ | ---------------------- | ---------- |
+| ADMIN  | admin@bookleaf.com     | Admin@123  |
+| AUTHOR | priya.sharma@email.com | Author@123 |
 
 Leave `GEMINI_API_KEY` empty to run in fallback mode (no AI calls, safe defaults).
 

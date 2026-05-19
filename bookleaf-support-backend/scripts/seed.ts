@@ -47,11 +47,7 @@ const ADMIN_NAME = "BookLeaf Admin";
 
 const AUTHOR_PASSWORD = "Author@123";
 
-const DATASET_PATH = path.resolve(
-  __dirname,
-  "..",
-  "bookleaf_sample_data (full stack) (1).json",
-);
+const DATASET_PATH = path.resolve(__dirname, "..", "bookleaf_sample_data.json");
 
 // Fail loudly if dataset drifts from schema enum — don't silently coerce.
 const ALLOWED_STATUSES: readonly BookStatus[] = [
@@ -132,7 +128,10 @@ const run = async (): Promise<void> => {
     role: "ADMIN",
     password: adminHash,
   });
-  logger.info({ email: admin.email, id: admin._id.toString() }, "Admin upserted");
+  logger.info(
+    { email: admin.email, id: admin._id.toString() },
+    "Admin upserted",
+  );
 
   const authorPasswordHash = await hashPassword(AUTHOR_PASSWORD);
 
