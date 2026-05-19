@@ -4,8 +4,8 @@ An author-support portal for BookLeaf. Authors raise tickets, admins work them, 
 
 This repo is a monorepo of two independent apps:
 
-- **[`bookleaf-support-backend`](https://github.com/Shubhankar-12/BookLeaf-Assignment/blob/main/bookleaf-support-backend/README.md)** — Node.js + Express + TypeScript API, MongoDB, Socket.IO, Gemini. Setup, API contract, AI behavior, and env vars are documented in its README.
-- **[`bookleaf-support-frontend`](https://github.com/Shubhankar-12/BookLeaf-Assignment/blob/main/bookleaf-support-frontend/README.md)** — Next.js 16 + React 19 dashboard, TanStack Query, Zustand, Socket.IO client. Setup, architecture, and env vars are documented in its README.
+- **[`bookleaf-support-backend`](https://github.com/Shubhankar-12/BookLeaf-Assignment/blob/main/bookleaf-support-backend)** — Node.js + Express + TypeScript API, MongoDB, Socket.IO, Gemini. Setup, API contract, AI behavior, and env vars are documented in its README.
+- **[`bookleaf-support-frontend`](https://github.com/Shubhankar-12/BookLeaf-Assignment/blob/main/bookleaf-support-frontend)** — Next.js 16 + React 19 dashboard, TanStack Query, Zustand, Socket.IO client. Setup, architecture, and env vars are documented in its README.
 
 ## Quick start
 
